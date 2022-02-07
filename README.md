@@ -1,4 +1,4 @@
-# Angular 13 Example Bootstrap
+# Angular 13 Prototype
 
 > An Angular starter kit featuring [Angular 13.2.1](https://angular.io), [Angular CLI 13.2.2](https://cli.angular.io/)
 
