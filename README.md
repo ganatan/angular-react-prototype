@@ -1,6 +1,6 @@
 # Angular 13 Prototype
 
-> An Angular starter kit featuring [Angular 13.2.1](https://angular.io), [Angular CLI 13.2.2](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 13.2.2](https://angular.io), [Angular CLI 13.2.3](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
 
@@ -24,12 +24,9 @@ git clone https://github.com/ganatan/angular-prototype.git
 # download the example or clone the repo from gitlab
 git clone https://gitlab.com/ganatan/angular-prototype.git
 
-# download the example or clone the repo from bitbucket
-git clone https://bitbucket.org/ganatan/angular-prototype.git
-
 
 # change directory
-cd angular-bootstrap
+cd angular-prototype
 
 # install the repo with npm
 npm install
