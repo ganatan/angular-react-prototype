@@ -12,11 +12,6 @@ const routes: Routes = [
       .then(mod => mod.ExampleModule)
   },
   {
-    path: 'contact',
-    loadChildren: () => import('./modules/contact/contact.module')
-      .then(mod => mod.ContactModule)
-  },
-  {
     path: 'about',
     loadChildren: () => import('./modules/about/about.module')
       .then(mod => mod.AboutModule)
