@@ -16,15 +16,15 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
 
     if (isPlatformBrowser(this.platformId)) {
-      let navMain = document.getElementById('navbarCollapse');
+      const navMain = document.getElementById('navbarCollapse');
       if (navMain) {
-        navMain.onclick = function () {
+        navMain.onclick = function onclick() {
           if (navMain) {
             navMain.classList.remove("show");
           }
         }
       }
-    } 
+    }
 
   }
 

@@ -47,6 +47,9 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 * `npm run start`
 * in your browser [http://localhost:4200](http://localhost:4200) 
 
+## Linter
+* `npm run lint`
+
 ### Production 
 * `npm run build`
 
