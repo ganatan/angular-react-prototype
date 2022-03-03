@@ -1,6 +1,6 @@
 # Angular 13 Prototype
 
-> An Angular starter kit featuring [Angular 13.2.4](https://angular.io), [Angular CLI 13.2.5](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 13.2.5](https://angular.io), [Angular CLI 13.2.5](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
 
