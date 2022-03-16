@@ -1,6 +1,6 @@
 # Angular 13 Prototype
 
-> An Angular starter kit featuring [Angular 13.2.5](https://angular.io), [Angular CLI 13.2.5](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 13.2.6](https://angular.io), [Angular CLI 13.2.6](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
 
@@ -55,6 +55,7 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 
 ## Tests
 * `npm run test`
+* `npm run coverage`
 
 ### Author
 * Author  : danny
