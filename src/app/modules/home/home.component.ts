@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Inject, PLATFORM_ID } from '@angular/core';
-import { isPlatformBrowser } from '@angular/common';
+import { Meta } from '@angular/platform-browser';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-home',
@@ -9,22 +9,21 @@ import { isPlatformBrowser } from '@angular/common';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(
-    @Inject(PLATFORM_ID) private platformId: object) {
+  name = environment.application.name;
+  version = environment.application.version;
+  bootstrap = environment.application.bootstrap;
+
+  constructor(private meta: Meta) {
   }
 
   ngOnInit(): void {
 
-    if (isPlatformBrowser(this.platformId)) {
-      const navMain = document.getElementById('navbarCollapse');
-      if (navMain) {
-        navMain.onclick = function onclick() {
-          if (navMain) {
-            navMain.classList.remove("show");
-          }
-        }
-      }
-    }
+    this.meta.updateTag(
+      {
+        name: 'description',
+        content: 'This application was developed with Angular version 14.0.1 and bootstrap 5.1.3' +
+          ' It applies Routing, Lazy loading, Server side rendering and Progressive Web App (PWA)'
+      });
 
   }
 
