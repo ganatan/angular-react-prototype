@@ -12,7 +12,7 @@ class App extends React.Component {
 
   constructor(props) {
     super(props);
-    this.title = 'react-bootstrap';
+    this.title = 'react-prototype';
     this.footerUrl = 'https://www.ganatan.com';
     this.footerLink = 'www.ganatan.com';
   }
